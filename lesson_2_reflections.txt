@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You create a place within git which allows you to track changes to the files
+in the repository or directory.  No commits are done on init so you need
+to commit in order to start tracking files and the changes that may be made.
