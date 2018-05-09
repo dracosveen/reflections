@@ -3,3 +3,15 @@ What happens when you initialize a repository? Why do you need to do it?
 You create a place within git which allows you to track changes to the files
 in the repository or directory.  No commits are done on init so you need
 to commit in order to start tracking files and the changes that may be made.
+
+git init - initialize a repository
+git add - add files to statging area ready to be committed
+git status - check the curretn status of a repo
+staging area - intermediate area between working directory and git repository
+working directory - this is where all work is done.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+This is where files that you are ready to commit are kept.  The value is that
+you can't accidentally change a file that you want to commit before doing so.
