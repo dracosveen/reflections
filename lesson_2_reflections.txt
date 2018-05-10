@@ -15,3 +15,25 @@ What value do you think it offers?
 
 This is where files that you are ready to commit are kept.  The value is that
 you can't accidentally change a file that you want to commit before doing so.
+
+How can you use the staging area to make sure you have one commit
+per logical change?
+
+By using the command git diff you can see changes between working directory and
+the staging area.  You can then edit the staging area as necessary.
+
+How do the diagrams help you visualize the branch structure?
+
+You can draw a tree and see the whole linked list structure of nodes.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+When you merge you are bringing 2 sets of code together into one project
+so that anyone that get the latest commit of the master branch will get
+all of the code that has been added.
+
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+Always fix conflicts manually
